@@ -26,5 +26,5 @@ spring:
     enabled: false
 
 jwt:
-  secret: test-secret
+  secret: ${JWT_SECRET}
   expiration-ms: 86400000
